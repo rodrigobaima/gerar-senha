@@ -10,7 +10,7 @@ const generateEl = document.getElementById("generate");
 const upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
-const symbols = "!@#$%^&*()_+=";
+ const symbols = "!@#$%^&*()_+=";
 
 function getLowercase() {
     return lowerLetters[Math.floor(Math.random() * lowerLetters.length)];
